@@ -99,3 +99,4 @@ fit
 par(mfrow=c(1,1))
 plot(x=fit$points[,1], y=fit$points[,2], xlab = "Coordinate 1", ylab = "Coordinate 2",
      main = "MDS with euclidean distances", col = retro.col, cex = 0.7)
+
